@@ -5,7 +5,7 @@ def update_dictionary(dct, key, value):
     - If the key already exists in dct, print the original value, then update its value.
     - Return the updated dictionary.
     """
-    ##check dot dict type
+    ##check for dict type
     if not isinstance(dct, dict):
         return "dct is not dict"
 

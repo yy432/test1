@@ -5,10 +5,12 @@ def find_and_replace(lst, find_val, replace_val):
     - lst must be a list.
     - Return the modified list.
     """
+    #test for list type
     if not isinstance(lst, list):
         print("lst not a list")
 
     else: 
+        #for loop to check for find_val
         x = len(lst)
         for i in range(x):
             if(find_val == lst[i]):
